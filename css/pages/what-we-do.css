@@ -27,14 +27,18 @@ body{
 }
 .environment{
   background: #EFF7F2;
+   
 }
 
-.environment__titul{
-  margin-top: 96px;
+.container__environment{
+ margin-top: 96px;
 }
 
 .environment__titul h1{
+  
   font-size: 48px;
   font-weight: 700;
   color: var(--primary-text, #1D2130);
 }
+
+
