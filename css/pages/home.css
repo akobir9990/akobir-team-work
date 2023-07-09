@@ -716,3 +716,11 @@ button[type="submit"] {
   text-align: right;
   color: rgba(29, 33, 48, 1);
 }
+
+/* response  */
+
+@media (max-width: 1164px) {
+  .about__container {
+    flex-direction: column;
+  }
+}

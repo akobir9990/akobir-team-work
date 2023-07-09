@@ -12,6 +12,9 @@
   display: flex;
   gap: 40px;
 }
+.burger {
+  display: none;
+}
 .nav__list {
   display: flex;
   gap: 40px;
@@ -42,4 +45,10 @@
   letter-spacing: 0em;
 
   color: rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 1280px) {
+  .container {
+    padding: 5px;
+  }
 }
