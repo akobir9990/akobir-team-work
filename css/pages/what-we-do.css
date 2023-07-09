@@ -1,44 +1,38 @@
 @import "../base/global.css";
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-.whatwedo__worldwide{
+.whatwedo__worldwide {
   display: flex;
   justify-content: space-between;
   align-items: center;
-   margin-top: 96px;
-   margin-bottom: 96px ;
-   gap: 110px;
+  margin-top: 96px;
+  margin-bottom: 96px;
+  gap: 110px;
 }
 
 .whatwedo__worldwide-text h1 {
-  
   font-size: 56px;
   font-weight: 700;
-  color: var(--primary-text, #1D2130);
+  color: var(--primary-text, #1d2130);
 }
-.whatwedo__worldwide-text p{
+.whatwedo__worldwide-text p {
   margin-top: 35px;
   font-size: 16px;
   color: var(--secondary-text, #525560);
-
 }
-.environment{
-  background: #EFF7F2;
-   
+.environment {
+  background: #eff7f2;
 }
 
-.container__environment{
- margin-top: 96px;
+.container__environment {
+  margin-top: 96px;
 }
 
-.environment__titul h1{
-  
+.environment__titul h1 {
   font-size: 48px;
   font-weight: 700;
-  color:  #1D2130;
+  color: #1d2130;
 }
-
-

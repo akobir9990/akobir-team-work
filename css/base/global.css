@@ -1,7 +1,8 @@
 @import "fonts.css";
 @import "reset.css";
 
-@import "../layout/container.css";
-@import "../layout/header.css";
-@import "../layout/footer.css";
-@import"../pages/what-we-do.css "
+@import url(../layout/container.css);
+@import url(../layout/header.css);
+@import url(../layout/footer.css);
+@import url(../pages/what-we-do.css);
+@import url(../pages/home.css);

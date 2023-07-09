@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>team work</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/base/global.css" />
   </head>
   <body>
     <div class="wrapper">
       <!-- Team -->
       <!-- Home page -->
 
-      <header class="header">
+      <header data-aos="fade-up" class="header">
         <div class="container header__container">
           <div class="header__logo">
-            <img src="" alt="" />
+            <img src="images/homePage/logo.svg" alt="" />
           </div>
           <div class="header__nav">
             <ul class="nav__list">
@@ -37,13 +40,58 @@
           </div>
         </div>
       </header>
-      <section class="home">
-        <div class="container home-container">
-          <h1>Save the environment today for a better tomorrow</h1>
+      <section data-aos="fade-up" class="home">
+        <div class="container home__container">
+          <h1 class="home__title">
+            Save the environment today for a better tomorrow
+          </h1>
           <div class="home__btns">
             <button class="btn btn__what-we-do">What we do</button>
             <button class="btn btn__play-video">
-              <img src="" alt="" /> Play video
+              <svg
+                width="24"
+                height="25"
+                viewBox="0 0 24 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g filter="url(#filter0_b_604_49)">
+                  <path
+                    d="M0 12.5C0 5.87258 5.37258 0.5 12 0.5C18.6274 0.5 24 5.87258 24 12.5C24 19.1274 18.6274 24.5 12 24.5C5.37258 24.5 0 19.1274 0 12.5Z"
+                    fill="white"
+                  />
+                </g>
+                <path
+                  d="M8.99268 14.2144V10.68C8.99268 9.17335 8.99268 8.42001 9.48339 8.12962C9.97411 7.83922 10.6345 8.20177 11.9552 8.92688L14.9846 10.5901C16.3231 11.3249 16.9924 11.6924 17.0071 12.2668C17.0218 12.8412 16.3722 13.2424 15.0731 14.0448L12.0437 15.916C10.6936 16.7499 10.0185 17.1668 9.50559 16.8807C8.99268 16.5947 8.99268 15.8012 8.99268 14.2144Z"
+                  fill="#1D2130"
+                />
+                <defs>
+                  <filter
+                    id="filter0_b_604_49"
+                    x="-80"
+                    y="-79.5"
+                    width="184"
+                    height="184"
+                    filterUnits="userSpaceOnUse"
+                    color-interpolation-filters="sRGB"
+                  >
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feGaussianBlur in="BackgroundImageFix" stdDeviation="40" />
+                    <feComposite
+                      in2="SourceAlpha"
+                      operator="in"
+                      result="effect1_backgroundBlur_604_49"
+                    />
+                    <feBlend
+                      mode="normal"
+                      in="SourceGraphic"
+                      in2="effect1_backgroundBlur_604_49"
+                      result="shape"
+                    />
+                  </filter>
+                </defs>
+              </svg>
+              Play video
             </button>
           </div>
           <div class="home__footer">
@@ -53,34 +101,338 @@
           </div>
         </div>
       </section>
-      <section class="about">
+      <section data-aos="fade-up" class="about">
         <div class="container about__container">
           <div class="about__text">
-            <div class="line"></div>
             <div class="text">
-              <div class="text__suptitle">Know About us</div>
+              <div class="text__suptitle">
+                <div class="line"></div>
+
+                Know About us
+              </div>
               <div class="text__title">
                 We help nature smile and survive everywhere
               </div>
               <div class="text__subtitle">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Suspendisse varius enim in eros elementum tristique. ‍Duis
-                cursus, mi quis viverra ornare, eros dolor interdum nulla, ut
-                commodo diam libero vitae erat. Aenean faucibus nibh et justo
+                Suspendisse varius enim in eros elementum tristique.
+                <br /><br />
+                ‍Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                ut commodo diam libero vitae erat. Aenean faucibus nibh et justo
                 cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus
                 tristique posuere.
               </div>
               <button class="about__btn">Learn more</button>
             </div>
           </div>
-          <div class="about__video"></div>
+          <div class="about__video">
+            <img
+              class="video__play"
+              src="images/homePage/play__icon.svg"
+              alt=""
+            />
+            <img src="images/homePage/about__img.png" alt="" />
+          </div>
         </div>
       </section>
-      <section class="support">
+      <section data-aos="fade-up" class="support">
         <div class="container">
-          <div class="support__container"></div>
+          <div class="support__container">
+            <div class="top__line">
+              <p>Our supporters</p>
+              <hr />
+            </div>
+            <div class="supported__companies">
+              <img src="images/homePage/support/logoipsum1.svg" alt="" />
+              <img src="images/homePage/support/logoipsum2.svg" alt="" />
+              <img src="images/homePage/support/logoipsum3.svg" alt="" />
+              <img src="images/homePage/support/logoipsum4.svg" alt="" />
+              <img src="images/homePage/support/logoipsum5.svg" alt="" />
+            </div>
+          </div>
         </div>
       </section>
+      <section data-aos="fade-up" class="we-do">
+        <div class="container we-do__container">
+          <div class="we-do__text">
+            <div class="we-do__text">
+              <div class="we-do__text__suptitle">
+                <div class="we-do__line"></div>
+                What we do
+              </div>
+              <h1 class="we-do__text__title">
+                We care for earth, care for the coming birth
+              </h1>
+              <h1 class="we-do__text__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros elementum tristique.
+              </h1>
+              <div class="works">
+                <div class="works__list">
+                  <div class="works__item">
+                    <div class="item__img">
+                      <img src="images/homePage/works/build.svg" alt="" />
+                    </div>
+                    <div class="works__item-text">
+                      <h2 class="works__title">Build Healthy Cities</h2>
+                      <p class="works__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="works__item">
+                    <div class="item__img">
+                      <img src="images/homePage/works/platation.svg" alt="" />
+                    </div>
+                    <div class="works__item-text">
+                      <h2 class="works__title">Tree Plantation</h2>
+                      <p class="works__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="works__item">
+                    <div class="item__img">
+                      <img
+                        src="images/homePage/works/land__and__water.svg"
+                        alt=""
+                      />
+                    </div>
+                    <div class="works__item-text">
+                      <h2 class="works__title">Protect Land and Water</h2>
+                      <p class="works__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="works__item">
+                    <div class="item__img">
+                      <img src="images/homePage/works/animal.svg" alt="" />
+                    </div>
+                    <div class="works__item-text">
+                      <h2 class="works__title">Animal Safety</h2>
+                      <p class="works__subtitle">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="we-do__img">
+            <img src="images/homePage/we-do__img.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade-up" class="done__projects">
+        <div class="container">
+          <div class="done-top__line">
+            <hr />
+            <p class="projects__suptitle">Projects we have done</p>
+          </div>
+          <h1 class="projects__title">
+            We are Creating sustainable society, for everyone and forever.
+          </h1>
+          <div class="project__items">
+            <div class="propejct__item item-1">
+              <h2>Mission 40K: Tree plantation</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+              <button class="item__btn">See more</button>
+            </div>
+            <div class="propejct__item item-2">
+              <h2>Weekly cleanliness program in city</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+              <button class="item__btn">See more</button>
+            </div>
+            <div class="propejct__item item-3">
+              <h2>Wildlife safety program 2021</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim in eros.
+              </p>
+              <button class="item__btn">See more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade-up" class="donations">
+        <div class="container donations__container">
+          <div class="donations__text">
+            <h1 class="dontaion__title">
+              How we spend your donations and where it goes
+            </h1>
+            <p class="dontaion__subtitle">
+              We understand that when you make a  donation, you want to know
+              exactly where your money is going and we pledge to be transparent.
+            </p>
+            <div class="donation__statystics">
+              <div class="statystic__item planting">
+                <div class="stat__color"></div>
+                40% planting trees
+              </div>
+              <div class="statystic__item cleanliness">
+                <div class="stat__color"></div>
+                35% cleanliness program
+              </div>
+              <div class="statystic__item helping">
+                <div class="stat__color"></div>
+                10% helping people
+              </div>
+              <div class="statystic__item animal">
+                <div class="stat__color"></div>
+                10% animal safety
+              </div>
+              <div class="statystic__item feeding">
+                <div class="stat__color"></div>
+                5% feeding the poor
+              </div>
+            </div>
+          </div>
+          <div class="donations__diagramm">
+            <img src="" alt="" />
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade-up" class="contribute">
+        <div class="container">
+          <h1 class="contribute__title">
+            You can contribute to make the environment greener!
+          </h1>
+          <div class="contribute__btns">
+            <button class="btn join">Join as a volunteer</button>
+            <button class="btn donate">Donate</button>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade-up" class="news">
+        <div class="container news__container">
+          <div class="news__items">
+            <div class="news__item">
+              <img src="" alt="" />
+              <h2 class="item__title">
+                Don’t destroy greenery and don’t spoil scenery
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+            <div class="news__item">
+              <img src="" alt="" />
+              <h2 class="item__title">
+                Is climate change happening faster than expected?
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+            <div class="news__item">
+              <img src="" alt="" />
+              <h2 class="item__title">
+                Top 10 facts about wind farms you didn't know
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+            <div class="news__item">
+              <img src="" alt="" />
+              <h2 class="item__title">
+                Our goal is to make water available for everyone
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Suspendisse varius enim
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade-up" class="events">
+        <div class="container events__container">
+          <h1>Our Events</h1>
+          <div class="events__items">
+            <div class="event__item">
+              <div class="event__date">23 <br />SEP</div>
+              <div class="event__text">
+                <div class="event__line">
+                  Next Events
+                  <hr />
+                </div>
+                <h2>Say no to plastic usage and save the planet</h2>
+              </div>
+              <div class="event__btn">
+                <!-- next btn -->
+              </div>
+            </div>
+            <div class="event__item">
+              <div class="event__date">23 <br />SEP</div>
+              <div class="event__text">
+                <div class="event__line">
+                  Next Events
+                  <hr />
+                </div>
+                <h2>Say no to plastic usage and save the planet</h2>
+              </div>
+              <div class="event__btn">
+                <!-- next btn -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer data-aos="fade-up">
+        <div class="container">
+          <div class="footer__text">
+            <img class="footer__logo" src="" alt="" />
+            <ul class="footer__list">
+              <li class="fotoer__item">Our team</li>
+              <li class="fotoer__item">About us</li>
+              <li class="fotoer__item">Team</li>
+              <li class="fotoer__item">What we do</li>
+              <li class="fotoer__item">Contact</li>
+            </ul>
+            <ul class="footer__list">
+              <li class="fotoer__item">More</li>
+              <li class="fotoer__item">Projects</li>
+              <li class="fotoer__item">Events</li>
+              <li class="fotoer__item">Donate</li>
+              <li class="fotoer__item">Blog</li>
+            </ul>
+            <ul class="footer__list">
+              <li class="fotoer__item">Connect</li>
+              <li class="fotoer__item">Facebook</li>
+              <li class="fotoer__item">Instagram</li>
+              <li class="fotoer__item">Twitter</li>
+              <li class="fotoer__item">Linkdin</li>
+            </ul>
+          </div>
+          <div class="footer__subscribe">
+            <h1>Subscribe to get latest updates</h1>
+            <form action="#">
+              <input type="text" name="" id="" />
+              <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

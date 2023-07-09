@@ -1,1 +1,239 @@
 @import "../base/global.css";
+.home {
+  background-image: url(../../images/homePage/home__bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 128px 0px 64px 0px;
+}
+.home__title {
+  width: 640px;
+  height: 231px;
+  top: 195px;
+  left: 110px;
+  font-family: "Roboto-700";
+  font-size: 64px;
+  color: rgba(255, 255, 255, 1);
+
+  line-height: 77px;
+  letter-spacing: 0em;
+}
+.home__btns {
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+.btn__what-we-do {
+  padding: 16px 32px 16px 32px;
+}
+.btn__play-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px 12px 16px;
+  gap: 8px;
+}
+.home__btns .btn,
+.home__btns svg path {
+  border-radius: 4px;
+
+  transition: 0.3s;
+  font-family: "Roboto-500";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 1);
+  background-color: transparent;
+  border: none;
+}
+
+.home__btns .btn:hover {
+  color: rgba(29, 33, 48, 1);
+  background: rgba(255, 255, 255, 1);
+}
+.home__btns .btn:hover svg path {
+  fill: black;
+}
+.home__btns .btn:hover svg path:nth-child(2) {
+  fill: white;
+}
+.home__footer {
+  margin-top: 192px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.home__footer hr {
+  flex-grow: 1;
+  border: 1px;
+  height: 1px;
+  background: rgba(229, 229, 229, 1);
+  border: 1px solid rgba(229, 229, 229, 1);
+}
+.home__footer span {
+  font-family: "Roboto-500";
+  font-size: 18px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+/* about section */
+.about__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 96px;
+}
+.about__text {
+  width: 668px;
+  display: flex;
+  gap: 24px;
+  margin-top: 60px;
+}
+
+.text {
+}
+.text__suptitle {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-family: "Roboto-700";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgba(29, 33, 48, 1);
+}
+.line {
+  width: 72px;
+  height: 1px;
+  background: rgba(29, 33, 48, 1);
+  border: 1px solid rgba(29, 33, 48, 1);
+}
+.text__title {
+  font-family: "Roboto-700";
+  font-size: 48px;
+  color: rgba(29, 33, 48, 1);
+  line-height: 58px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 32px;
+  margin-left: 96px;
+}
+.text__subtitle {
+  font-family: "Roboto-400";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 96px;
+  margin-top: 32px;
+}
+.about__btn {
+  width: 146px;
+  height: 51px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 4px;
+  gap: 10px;
+  margin-left: 96px;
+  margin-top: 48px;
+  background: rgba(112, 193, 116, 1);
+
+  font-family: "Roboto-500";
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+.about__video {
+  position: relative;
+}
+.video__play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.video__play {
+  transform: scale(2);
+}
+
+/* support  */
+
+.support__container {
+  margin: 64px 0;
+}
+.top__line {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.top__line p {
+  font-family: "Roboto-500";
+  font-size: 16px;
+  color: rgba(29, 33, 48, 1);
+  line-height: 19px;
+  letter-spacing: 2px;
+  color: rgba(29, 33, 48, 1);
+}
+.top__line hr {
+  width: 1094px;
+  border: 1px solid rgba(229, 229, 229, 1);
+}
+.supported__companies {
+  display: flex;
+  margin-top: 32px;
+  justify-content: space-between;
+}
+
+/* we-do */
+
+.we-do {
+  background: rgba(239, 247, 242, 1);
+}
+.we-do__container {
+  padding: 96px 0;
+  display: flex;
+}
+.we-do__text__suptitle {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-family: "Roboto-700";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgba(29, 33, 48, 1);
+}
+.we-do__text__title {
+  font-family: "Roboto-700";
+  font-size: 48px;
+  color: rgba(29, 33, 48, 1);
+  line-height: 58px;
+  letter-spacing: 0px;
+  margin-top: 32px;
+  margin-left: 96px;
+}
+.we-do__text__subtitle {
+  font-family: "Roboto-400";
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 16px;
+  margin-left: 96px;
+}
+.we-do__line {
+  width: 72px;
+  height: 1px;
+  background: rgba(29, 33, 48, 1);
+  border: 1px solid rgba(29, 33, 48, 1);
+}
+.works {
+  margin-left: 96px;
+  padding-left: 24px;
+  border-left: 1px solid rgba(229, 229, 229, 1);
+}
+.works__item {
+  display: flex;
+}
