@@ -13,6 +13,11 @@ body{
    gap: 110px;
 }
 
+.whatwedo__worldwide-text img{
+  position: relative;
+  right: 100px;
+}
+
 .whatwedo__worldwide-text h1 {
   
   font-size: 56px;
@@ -69,6 +74,9 @@ body{
 }
 
 .sustainable__titule{
+  width: 700px;
+  position: relative;
+  left: 290px;
   text-align: center;
   margin-top: 96px;
 }
@@ -85,3 +93,39 @@ body{
 
 }
 
+.sustainable__boxs-carts{
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+ 
+}
+
+.sustainable__boxs-carts-1{
+  color: #EFF7F2;
+  position: relative;
+  margin-bottom: 96px;
+
+}
+.sustainable__boxs-carts-1-text{
+  padding: 40px;
+  position: absolute;
+  position: -ms-page;
+  top: 20px;
+}
+.sustainable__boxs-carts-1-text h4{
+  
+  font-size: 28px;
+  font-weight: 600;
+}
+.sustainable__boxs-carts-1-text p{
+  margin-top: 18px;
+  font-weight: 400;
+  font-size: 16px;
+
+}
+.sustainable__boxs-carts-1-text button{
+  margin-top: 64px;
+  padding: 16px 32px;
+  border-radius: 5px;
+}

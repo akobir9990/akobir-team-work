@@ -4,4 +4,5 @@
 @import "../layout/container.css";
 @import "../layout/header.css";
 @import "../layout/footer.css";
-@import"../pages/what-we-do.css "
+@import"../pages/what-we-do.css";
+@import "../pages/media.css"
