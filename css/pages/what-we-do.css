@@ -32,7 +32,6 @@ body {
   background: #eff7f2;
 }
 
-<<<<<<< HEAD
 .environment__titul{
  padding-top: 96px;
 }
@@ -126,7 +125,8 @@ body {
   margin-top: 64px;
   padding: 16px 32px;
   border-radius: 5px;
-x
+}
+
 .container__environment {
   margin-top: 96px;
 }
@@ -135,5 +135,4 @@ x
   font-size: 48px;
   font-weight: 700;
   color: #1d2130;
->>>>>>> 919796da8c308eee15989848bfd1f49dc8551d00
 }
