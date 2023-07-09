@@ -1,1 +1,70 @@
-@import "../base/global.css";
+@import "../base/reset.css";
+
+.media {
+  background-color: #EFF7F2;
+}
+
+.media__everyone{
+  padding-top:40px ;
+  padding-bottom: 98px;
+  margin-top: 98px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+
+.media__everyone-text img{
+  position: relative;
+  right: 100px;
+}
+
+.media__everyone-text h1{
+ 
+  margin-top: 25px;
+  width: 600px;
+  font-size: 56px;
+  font-weight: 700;
+  color:  #1D2130;
+}
+.media__everyone-text  p{
+  margin-top: 20px;
+  width: 600px;
+  font-size: 16px;
+  color: #525560;
+}
+.media__everyone-text button{
+  margin-top: 35px;
+  padding: 16px 32px;
+  background-color: #70C174;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.media__everyone-cart{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 25px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 45px;
+}
+
+.media__everyone-vizit{
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+}
+
+.media__everyone-vizit h4{
+  width: 300px;
+  font-size: 20px;
+  color: #1D2130;
+}
+.media__everyone-vizit p{
+  margin-top: 10px;
+  width: 300px;
+  font-size: 16px;
+  color: #525560;
+}
+
