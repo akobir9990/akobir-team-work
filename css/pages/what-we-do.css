@@ -1,16 +1,16 @@
 @import "../base/global.css";
 
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
-.whatwedo__worldwide{
+.whatwedo__worldwide {
   display: flex;
   justify-content: space-between;
   align-items: center;
-   margin-top: 96px;
-   margin-bottom: 96px ;
-   gap: 110px;
+  margin-top: 96px;
+  margin-bottom: 96px;
+  gap: 110px;
 }
 
 .whatwedo__worldwide-text img{
@@ -19,113 +19,28 @@ body{
 }
 
 .whatwedo__worldwide-text h1 {
-  
   font-size: 56px;
   font-weight: 700;
-  color: var(--primary-text, #1D2130);
+  color: var(--primary-text, #1d2130);
 }
-.whatwedo__worldwide-text p{
+.whatwedo__worldwide-text p {
   margin-top: 35px;
   font-size: 16px;
   color: var(--secondary-text, #525560);
-
 }
-.environment{
-  background: #EFF7F2;
-   
+.environment {
+  background: #eff7f2;
 }
 
-.environment__titul{
- padding-top: 96px;
+.container__environment{
+ margin-top: 96px;
 }
 
 .environment__titul h1{
+  
   font-size: 48px;
   font-weight: 700;
-  color:  #1D2130;
+  color: #1d2130;
 }
 
-.environment__cart-box{
-  padding-bottom: 105px;
-  margin-top: 65px ;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  justify-content: space-between;
-  gap: 65px;
-}
 
-.environment__cart-box__cart {
-  
-  display: flex;
-  justify-content: space-between;
-  align-items:flex-start ;
-  gap: 24px;
-}
-.cart-text h4{
- 
-  font-size: 24px;
-  color:  #1D2130;
-}
-.cart-text p{
-  margin-top: 8px;
-  color:  #1D2130;
-  font-size: 14px;
-}
-
-.sustainable__titule{
-  width: 700px;
-  position: relative;
-  left: 290px;
-  text-align: center;
-  margin-top: 96px;
-}
-.sustainable__titule h2{
-  font-size: 48px;
-  color:  #1D2130;
-  margin-top: 20px;
-}
-.sustainable__titule p{
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 700;
-  color:  #1D2130;
-
-}
-
-.sustainable__boxs-carts{
-  margin-top: 65px;
-  display: flex;
-  justify-content: space-between;
-  gap: 25px;
- 
-}
-
-.sustainable__boxs-carts-1{
-  color: #EFF7F2;
-  position: relative;
-  margin-bottom: 96px;
-
-}
-.sustainable__boxs-carts-1-text{
-  padding: 40px;
-  position: absolute;
-  position: -ms-page;
-  top: 20px;
-}
-.sustainable__boxs-carts-1-text h4{
-  
-  font-size: 28px;
-  font-weight: 600;
-}
-.sustainable__boxs-carts-1-text p{
-  margin-top: 18px;
-  font-weight: 400;
-  font-size: 16px;
-
-}
-.sustainable__boxs-carts-1-text button{
-  margin-top: 64px;
-  padding: 16px 32px;
-  border-radius: 5px;
-}
