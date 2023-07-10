@@ -68,3 +68,101 @@
   color: #525560;
 }
 
+
+.footer {
+  padding: 97px 0;
+  background: #000;
+  color: white;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__text {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.fotoer__item {
+  margin-bottom: 24px;
+}
+.fotoer__item:nth-child(1) {
+  font-family: "Roboto-700";
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.fotoer__item:nth-child(2),
+.fotoer__item:nth-child(3),
+.fotoer__item:nth-child(4),
+.fotoer__item:nth-child(5) {
+  font-family: "Roboto-400";
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer__subscribe {
+  width: 45%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.footer__subscribe h1 {
+  font-family: "Roboto-700";
+  font-size: 40px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.subscrib__input {
+  display: flex;
+  justify-content: center;
+  width: 544px;
+  height: 64px;
+  border-radius: 4px;
+  padding: 0;
+  margin: 0;
+}
+
+.subscrib__input input::placeholder {
+  font-family: "Roboto-400";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(235, 240, 249, 0.3);
+}
+.subscrib__input input {
+  max-width: 456px;
+  min-width: 320px;
+  height: 64px;
+  border-radius: 4px;
+  background: transparent;
+  padding: 24px;
+  color: white;
+  border: 1px solid rgba(235, 240, 249, 0.3);
+}
+button[type="submit"] {
+  transform: translateX(-5px);
+  width: 136px;
+  height: 64px;
+  padding: 16px 32px 16px 32px;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 1);
+
+  font-family: "Roboto-500";
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: right;
+  color: rgba(29, 33, 48, 1);
+}
+
